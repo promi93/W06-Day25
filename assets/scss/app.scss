@@ -1,8 +1,23 @@
+@import "./partials/_animazioni";
+@import "./partials/_bottoni";
+@import "./partials/_colori";
+@import "./partials/_font";
+@import "./partials/_mixin-generici";
+// @import "./partials/_reset";
+@import "./partials/_spaziature";
 
-@import "./partials/animazioni";
-@import "./partials/bottoni";
-@import "./partials/colori";
-@import "./partials/font";
-@import "./partials/mixin-generici";
-// @import "./partials/reset";
-@import "./partials/spaziature";
+nav {
+  @include nav;
+}
+
+.hero {
+  @include flex;
+}
+
+.container-btn {
+  @include center;
+}
+
+.container-card {
+  @include flex;
+}
